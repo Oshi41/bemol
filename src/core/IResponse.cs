@@ -1,7 +1,8 @@
-using System.IO;
+﻿using System.IO;
 using System.Net;
 
-namespace Bemol.Http {
+namespace Bemol.src_new.interfaces
+{
     public interface IResponse {
         Stream OutputStream { get; }
         string? ContentType { set; get; }
